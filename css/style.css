@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+    line-height: 1.4;
+    width: 100vw;
+    height: 100vh;
+    font-size: 18px;
+    background-color: rgb(136, 125, 112);
+  }
+  
+  .container{
+    max-width: 700px ;
+    margin: 3rem auto;
+    background-color: red;
+    text-align: center;
+    padding: 1rem;
+    background-color: #fff;
+  }
+  .field-group{
+    display: flex;
+    margin: 1rem 0;
+  }
+  h2{
+    margin-top: 1rem;
+  }
+  
+  .field{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin: 0 0.5rem;
+  }
+  input{
+    outline: none;
+    border: none;
+    font-size: 16px;
+    padding: 0.5rem;
+    border-bottom: 1px solid rgb(99, 95, 95);
+  }
+  .btn-submit{
+    padding: 0.3rem 1rem;
+    background-color: red;
+    color: #fff;
+    outline: none;
+    font-size: 18px;
+    margin: 0.5rem 0;
+  }
+  .expenses-list{
+    width: 600px;
+    margin: 1rem auto;
+    /* background-color: red; */
+  }
+  .expenses-list h1{
+    margin-bottom: 1rem;
+  }
+  .btn-delete{
+    width: 80%;
+    padding: 0.5rem 0;
+    background-color: red;
+    color: #fff;
+    outline: none;
+    font-size: 18px;
+    margin-top: 2rem;
+  }
+  .item{
+    width: 80%;
+    display: flex;
+    /* background-color: aqua; */
+    margin: auto;
+    font-size: 22px;
+    padding: 0.5rem;
+    border-bottom: 1px solid #000;
+    justify-content: space-between;
+  }
+  .fa-edit{
+    margin-right: 0.5rem;
+  }
+  .red{
+    background-color: red;
+    color: #fff;
+    width: 80vw;
+    margin: auto;
+    padding: 0.2rem 0;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 3rem;
+  }
+  .green{
+    background-color:green;
+    color: #fff;
+    width: 80vw;
+    margin: auto;
+    padding: 0.2rem 0;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 3rem;
+  }
